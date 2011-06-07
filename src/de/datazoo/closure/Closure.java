@@ -1,8 +1,5 @@
 package de.datazoo.closure;
 
-/**
- * @author Martin Gross
- */
 public class Closure {
 
     public static void main(String[] args) {
