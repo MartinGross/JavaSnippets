@@ -1,1 +1,10 @@
+h1. JavaSnippets
+
+h2. Why?
+
 Just some experimental Java code snippets for trying ideas
+
+
+h2. How to update on Github?
+
+@git push -u origin master@
