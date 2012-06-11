@@ -4,8 +4,7 @@ h2. Why?
 
 Just some experimental Java code snippets for trying ideas.
 
-And some standard setups for "Maven":http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-based Java projects with "Spring":http://www.springsource.org/spring-framework .
+And some standard setups for "Maven":http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html based Java projects with "Spring":http://www.springsource.org/spring-framework .
 
 h2. How to update on Github?
 
