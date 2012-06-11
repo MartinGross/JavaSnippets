@@ -14,6 +14,15 @@ public class Closure {
 
         worker.run();
 
+        Closure closure = new Closure();
+        closure.runClosure(worker);
+
+    }
+
+    public void runClosure(Runnable closure) {
+
+        closure.run();
+
     }
 
 }
