@@ -5,6 +5,8 @@ public class ExampleObject {
     private long timeout;
     private String policy;
 
+    private AnotherExampleObject anotherBean;
+
     public String getPolicy() {
         return policy;
     }
@@ -19,5 +21,13 @@ public class ExampleObject {
 
     public void setTimeout(long timeout) {
         this.timeout = timeout;
+    }
+
+    public AnotherExampleObject getAnotherBean() {
+        return anotherBean;
+    }
+
+    public void setAnotherBean(AnotherExampleObject anotherBean) {
+        this.anotherBean = anotherBean;
     }
 }

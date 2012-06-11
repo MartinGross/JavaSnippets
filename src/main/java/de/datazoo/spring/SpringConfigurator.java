@@ -18,6 +18,9 @@ public class SpringConfigurator {
         
         long time = exampleObject.getTimeout();
         System.out.println("timeout was set to = " + time);
+        
+        long anotherTimeout = exampleObject.getAnotherBean().getTimeout();
+        System.out.println("anotherTimeout = " + anotherTimeout);
 
     }
 

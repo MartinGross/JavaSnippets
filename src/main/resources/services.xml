@@ -8,6 +8,14 @@
     <bean id="exampleObject" class="de.datazoo.spring.ExampleObject" >
         <property name="policy" value="policy.xml" />
         <property name="timeout" value="10000"/>
+
+        <!-- setter injection using the neater 'ref' attribute -->
+        <property name="anotherBean" ref="anotherObject"/>
+    </bean>
+
+
+    <bean id="anotherObject" class="de.datazoo.spring.AnotherExampleObject" >
+        <property name="timeout" value="1"/>
     </bean>
 
 </beans>
