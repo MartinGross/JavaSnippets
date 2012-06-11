@@ -2,8 +2,9 @@ h1. JavaSnippets
 
 h2. Why?
 
-Just some experimental Java code snippets for trying ideas
+Just some experimental Java code snippets for trying ideas.
 
+And some standard setups for Maven based Java projects with Spring.
 
 h2. How to update on Github?
 
